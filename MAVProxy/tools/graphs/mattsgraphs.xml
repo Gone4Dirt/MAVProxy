@@ -1,0 +1,21 @@
+<graphs>
+
+ <graph name='Sensors/Gyroscope/Gyro X'>
+  <description></description>
+  <expression>degrees(IMU[0].GyrX) degrees(IMU[1].GyrX) degrees(IMU[2].GyrX)</expression>
+  <expression>degrees(IMU.GyrX) degrees(IMU2.GyrX) degrees(IMU3.GyrX)</expression>
+ </graph>
+
+  <graph name='Sensors/Gyroscope/Gyro Y'>
+  <description></description>
+  <expression>degrees(IMU[0].GyrY) degrees(IMU[1].GyrY) degrees(IMU[2].GyrY)</expression>
+  <expression>degrees(IMU.GyrY) degrees(IMU2.GyrY) degrees(IMU3.GyrY)</expression>
+ </graph>
+
+  <graph name='Sensors/Gyroscope/Gyro Z'>
+  <description></description>
+  <expression>degrees(IMU[0].GyrZ) degrees(IMU[1].GyrZ) degrees(IMU[2].GyrZ)</expression>
+  <expression>degrees(IMU.GyrZ) degrees(IMU2.GyrZ) degrees(IMU3.GyrZ)</expression>
+ </graph>
+
+</graphs>
